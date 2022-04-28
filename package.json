@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
-    "build": "quasar build"
+    "build": "quasar build -pwa"
   },
   "dependencies": {
     "axios": "^0.21.1",

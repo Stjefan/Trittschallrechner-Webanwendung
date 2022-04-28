@@ -6,6 +6,12 @@
       :todos="todos"
       :meta="meta"
     ></example-component>
+    <div style="background-image: url('https://placeimg.com/500/300/nature?t=20');
+  background-repeat: no-repeat;
+  background-size: 500px 300px;
+  width: 500px;
+  height: 300px">Hello</div>
+    <img src="https://placeimg.com/500/300/nature?t=80"/>
   </q-page>
 </template>
 
