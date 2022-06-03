@@ -33,8 +33,8 @@ module.exports = configure(function (ctx) {
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-webpack/boot-files
     boot: [
-      'i18n',
-      'axios',
+      // 'i18n',
+      // 'axios',
     ],
 
     // https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-css
@@ -87,7 +87,7 @@ module.exports = configure(function (ctx) {
       server: {
         type: 'http'
       },
-      port: 8080,
+      port: 4200,
       open: true // opens browser window automatically
     },
 
